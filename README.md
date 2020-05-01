@@ -15,10 +15,9 @@ the relu and for the output layer is the softmax function. The recurrent neural 
 It has two hidden layers comprising 256 x 32 neurons and three neurons corresponding to the output layer. This architecture also 
 implements the same activation functions as the other two networks. In table 1 we summarize the architectures described above.
 
-Neural Network      Hidden layers    Neurons            Activation 
-MLP                     2           512x512x3           relu,softmax 
-CNN                     4           64x64x32x32x3       relu, softmax 
-RNN                     2           256x32x3            relu, softmax
+MLP - 2(Hidden layers)- 512x512x3(Neurons) -relu,softmax (Activation)
+CNN - 4(Hidden layers) -64x64x32x32x3(Neurons)  -relu, softmax (Activation)
+RNN  - 2 (Hidden layers)  256x32x3 (Neurons) - relu, softmax(Activation)
 
 The other two models are traditional machine learning models. 
 One is a support vector machine. This model has a basic construction (similar to the one proposed in the scikitlearn documentation). 
@@ -27,9 +26,6 @@ The other model uses a random forest classiﬁer.
 This model also has a basic construction in the sense that our python script only initializes the model, trains it and then evaluates 
 its performance. 
 The single parameter we varied here was the number of estimators (number of trees).4
-
-
-Nmel = 20 as baseline features and test extra spectral features to see the 
 
  Conclusions: 
   In this work, we have presented an audio processing system capable of determining the level of ﬂuency of non-native Englishspeakers, 
