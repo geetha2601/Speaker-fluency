@@ -16,7 +16,9 @@ It has two hidden layers comprising 256 x 32 neurons and three neurons correspon
 implements the same activation functions as the other two networks. In table 1 we summarize the architectures described above.
 
 MLP - 2(Hidden layers)- 512x512x3(Neurons) -relu,softmax (Activation)
+
 CNN - 4(Hidden layers) -64x64x32x32x3(Neurons)  -relu, softmax (Activation)
+
 RNN  - 2 (Hidden layers)  256x32x3 (Neurons) - relu, softmax(Activation)
 
 The other two models are traditional machine learning models. 
